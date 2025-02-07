@@ -1,0 +1,6 @@
+super + w
+	firefox
+super + c
+	geany
+super + s
+	sysstate

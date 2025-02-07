@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# Set the sink name explicitly
+SINK_NAME="alsa_output.pci-0000_05_00.1.hdmi-stereo"
+
+case $BLOCK_BUTTON in
+    1) setsid -w -f st -e pulsemixer ;;  # Left click: Open pulsemixer
+    2) pactl set-sink-mute "$SINK_NAME" toggle; pkill -RTMIN+10 slstatus ;;  # Middle click: Toggle mute
+    4) pactl set-sink-volume "$SINK_NAME" +5%; pkill -RTMIN+10 slstatus ;;   # Scroll up: Increase volume
+    5) pactl set-sink-volume "$SINK_NAME" -5%; pkill -RTMIN+10 slstatus ;;   # Scroll down: Decrease volume
+    3) notify-send "📢 Volume Module" "Controls:\n Scroll Up: Increase Volume\n Scroll Down: Decrease Volume\n🔇 Middle Click: Toggle Mute\n🖱️ Left Click: Open pulsemixer" ;;  # Right click: Help
+esac
+
+# Get mute status
+mute_status=$(pactl get-sink-mute "$SINK_NAME" | awk '{print $2}')
+
+# Get volume percentage (left channel)
+vol=$(pactl list sinks | grep -A 15 "$SINK_NAME" | grep 'Volume:' | head -n 1 | awk -F '/' '{print $2}' | tr -d ' %')
+
+# Determine output
+if [ "$mute_status" = "yes" ]; then
+    echo "🔇 Muted"
+else
+    if [ "$vol" -ge 70 ]; then
+        icon=""
+    elif [ "$vol" -ge 30 ]; then
+        icon=""
+    else
+        icon=""
+    fi
+    echo "$icon $vol%"
+fi

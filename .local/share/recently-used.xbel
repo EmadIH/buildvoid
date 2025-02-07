@@ -1,0 +1,1090 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xbel version="1.0"
+      xmlns:bookmark="http://www.freedesktop.org/standards/desktop-bookmarks"
+      xmlns:mime="http://www.freedesktop.org/standards/shared-mime-info"
+>
+  <bookmark href="file:///home/eih/bashrc" added="2025-01-17T18:10:52.442609Z" modified="2025-01-17T18:10:52.828487Z" visited="2025-01-17T18:10:52.442611Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T18:10:52.828478Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/doas.conf" added="2025-01-17T18:14:23.667491Z" modified="2025-01-17T18:14:23.997612Z" visited="2025-01-17T18:14:23.667493Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T18:14:23.997607Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/scripts/sysstate" added="2025-01-17T19:39:57.066782Z" modified="2025-01-17T19:39:57.433329Z" visited="2025-01-17T19:39:57.066784Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T19:39:57.433324Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/background/getback.png" added="2025-01-17T19:48:14.715452Z" modified="2025-01-17T19:48:15.081277Z" visited="2025-01-17T19:48:14.715453Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T19:48:15.081273Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-autostart-20210120-cb3f58a.diff" added="2025-01-17T19:52:30.916669Z" modified="2025-01-17T19:52:31.234691Z" visited="2025-01-17T19:52:30.916670Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T19:52:31.234688Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-restartsig-20180523-6.2.diff" added="2025-01-17T19:53:47.246524Z" modified="2025-01-17T19:53:47.600121Z" visited="2025-01-17T19:53:47.246526Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T19:53:47.600116Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.xinitrc" added="2025-01-17T20:11:02.034624Z" modified="2025-02-06T09:12:54.616762Z" visited="2025-01-17T20:11:02.034625Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T09:17:43.260710Z" count="2"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-06T09:12:54.616760Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.bash_profile" added="2025-01-17T20:11:24.549797Z" modified="2025-02-06T09:14:18.214502Z" visited="2025-01-17T20:11:24.549798Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-06T09:14:18.214499Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.bashrc" added="2025-01-17T20:11:24.549808Z" modified="2025-01-23T08:29:55.409417Z" visited="2025-01-17T20:11:24.549808Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-23T08:29:55.409415Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/config.h" added="2025-01-17T20:13:02.830794Z" modified="2025-01-17T20:51:02.574968Z" visited="2025-01-17T20:13:02.830795Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-17T20:51:02.574966Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/config.def.h" added="2025-01-17T20:13:20.370747Z" modified="2025-02-07T20:34:15.713325Z" visited="2025-01-17T20:13:20.370749Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-07T20:34:15.713321Z" count="10"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/picom/picom.conf" added="2025-01-17T20:47:13.218535Z" modified="2025-02-04T19:21:12.479354Z" visited="2025-01-17T20:47:13.218537Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T20:47:13.586466Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-04T19:21:12.479350Z" count="9"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/src/picom/build/meson-logs/meson-log.txt" added="2025-01-17T21:07:45.366840Z" modified="2025-01-17T21:07:45.366849Z" visited="2025-01-17T21:07:45.366842Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-17T21:07:45.366844Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/st/patches/st-alpha-20240814-a0274bc.diff" added="2025-01-17T21:21:12.850885Z" modified="2025-01-17T21:21:13.240256Z" visited="2025-01-17T21:21:12.850886Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T21:21:13.240251Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/st/patches/st-scrollback-0.9.2.diff" added="2025-01-17T21:32:50.695332Z" modified="2025-01-17T21:32:51.070938Z" visited="2025-01-17T21:32:50.695334Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T21:32:51.070934Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/st/patches/st-scrollback-mouse-0.9.2.diff" added="2025-01-17T21:32:55.587375Z" modified="2025-01-17T21:32:55.947866Z" visited="2025-01-17T21:32:55.587376Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T21:32:55.947861Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-noborderselflickerfix-2022042627-d93ff48803f0.diff" added="2025-01-17T21:37:59.849640Z" modified="2025-01-17T21:38:00.201473Z" visited="2025-01-17T21:37:59.849642Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T21:38:00.201467Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-centeredmaster-6.1.diff" added="2025-01-17T21:38:37.465398Z" modified="2025-01-17T21:38:37.754174Z" visited="2025-01-17T21:38:37.465399Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T21:38:37.754167Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-bidi-restricted-20230512-e81f17d.diff" added="2025-01-17T21:39:42.162248Z" modified="2025-01-17T21:39:42.493675Z" visited="2025-01-17T21:39:42.162249Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-17T21:39:42.493670Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/share/dwm/autostart.sh" added="2025-01-17T21:46:27.286140Z" modified="2025-02-06T09:31:58.621985Z" visited="2025-01-17T21:46:27.286141Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-04T08:36:12.929128Z" count="9"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-06T09:31:58.621981Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///etc/doas.conf" added="2025-01-18T08:18:07.985537Z" modified="2025-01-18T08:27:21.409247Z" visited="2025-01-18T08:18:07.985539Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T08:18:07.985541Z" count="1"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-01-18T08:27:21.409244Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-noborderfloatingfix-6.2.diff" added="2025-01-18T08:38:15.032735Z" modified="2025-01-18T08:38:15.395481Z" visited="2025-01-18T08:38:15.032736Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:38:15.395477Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-alpha-20230110-5.2.diff" added="2025-01-18T08:41:28.847068Z" modified="2025-01-18T08:41:29.191371Z" visited="2025-01-18T08:41:28.847070Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:41:29.191365Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-highlight-20201211-fcdc159.diff" added="2025-01-18T08:42:29.781752Z" modified="2025-01-18T08:57:35.549538Z" visited="2025-01-18T08:42:29.781754Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:42:30.146640Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T08:57:35.549534Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-center-20240616-36c3d68.diff" added="2025-01-18T08:43:05.931098Z" modified="2025-01-18T12:37:49.459433Z" visited="2025-01-18T08:43:05.931100Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:43:06.259778Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T12:37:49.459429Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/_jNZWq4S.html" added="2025-01-18T08:43:15.984595Z" modified="2025-01-18T08:43:16.876394Z" visited="2025-01-18T08:43:15.984597Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/html"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:43:16.876387Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/config.def.h" added="2025-01-18T08:44:08.117515Z" modified="2025-02-07T20:27:23.526193Z" visited="2025-01-18T08:44:08.117517Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-07T20:27:23.526189Z" count="10"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-07T20:26:11.592836Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-gruvbox-20210329-9ae8ea5.diff" added="2025-01-18T08:45:22.001320Z" modified="2025-01-18T09:05:34.520707Z" visited="2025-01-18T08:45:22.001321Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:45:22.341550Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T09:05:34.520702Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-bidi-20210723-b34d318.diff" added="2025-01-18T08:45:31.664393Z" modified="2025-01-18T08:45:32.014028Z" visited="2025-01-18T08:45:31.664395Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:45:32.014022Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-bar-height-5.2.diff" added="2025-01-18T08:46:14.201060Z" modified="2025-01-18T08:46:14.533113Z" visited="2025-01-18T08:46:14.201061Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T08:46:14.533102Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/config.mk" added="2025-01-18T08:47:32.250019Z" modified="2025-01-18T09:10:32.577495Z" visited="2025-01-18T08:47:32.250020Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T09:10:32.577491Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/config.mk.rej" added="2025-01-18T08:47:32.250045Z" modified="2025-01-18T08:47:32.250049Z" visited="2025-01-18T08:47:32.250045Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T08:47:32.250047Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/dmenu.c" added="2025-01-18T08:48:57.599922Z" modified="2025-02-07T20:46:08.549094Z" visited="2025-01-18T08:48:57.599924Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-07T20:46:08.549090Z" count="12"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/dmenu.c.rej" added="2025-01-18T08:48:57.599948Z" modified="2025-02-07T20:43:41.576793Z" visited="2025-01-18T08:48:57.599949Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-07T20:43:41.576791Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/drw.c" added="2025-01-18T08:51:02.916052Z" modified="2025-01-18T08:51:02.916061Z" visited="2025-01-18T08:51:02.916053Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T08:51:02.916056Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/drw.c.rej" added="2025-01-18T08:51:02.916078Z" modified="2025-01-18T08:51:02.916082Z" visited="2025-01-18T08:51:02.916078Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T08:51:02.916080Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-grid-4.9.diff" added="2025-01-18T09:02:45.786099Z" modified="2025-01-18T12:37:49.459456Z" visited="2025-01-18T09:02:45.786101Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T09:02:46.112739Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T12:37:49.459454Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/config.def.h.rej" added="2025-01-18T09:03:44.846393Z" modified="2025-01-18T09:03:44.846402Z" visited="2025-01-18T09:03:44.846395Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T09:03:44.846397Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/config.h" added="2025-01-18T09:11:00.326730Z" modified="2025-01-18T09:11:00.326738Z" visited="2025-01-18T09:11:00.326731Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T09:11:00.326733Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-border-20230512-0fe460d.diff" added="2025-01-18T13:47:16.321197Z" modified="2025-01-18T13:47:16.708935Z" visited="2025-01-18T13:47:16.321199Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T13:47:16.708930Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-bordercolor-20230512-0fe460d.diff" added="2025-01-18T13:59:28.397772Z" modified="2025-01-18T14:07:50.944086Z" visited="2025-01-18T13:59:28.397774Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T13:59:28.747009Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T14:07:50.944083Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/st/config.def.h" added="2025-01-18T18:34:38.327326Z" modified="2025-01-24T21:43:38.097793Z" visited="2025-01-18T18:34:38.327327Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T21:43:38.097790Z" count="6"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/st/patches/st-xresources-20200604-9ba7ecf.diff" added="2025-01-18T18:37:48.389450Z" modified="2025-01-18T18:37:48.753456Z" visited="2025-01-18T18:37:48.389451Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T18:37:48.753453Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/.Xresources" added="2025-01-18T18:43:42.110671Z" modified="2025-02-03T06:24:08.451620Z" visited="2025-01-18T18:43:42.110672Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-03T06:24:08.451616Z" count="5"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/Downloads/xresources" added="2025-01-18T18:54:52.753496Z" modified="2025-01-25T12:16:30.471421Z" visited="2025-01-18T18:54:52.753498Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-18T18:54:53.086064Z" count="2"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-01-25T12:16:30.471418Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T18:56:28.163000Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/LICENSE" added="2025-01-18T19:27:10.034152Z" modified="2025-01-18T19:27:10.034160Z" visited="2025-01-18T19:27:10.034153Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-18T19:27:10.034155Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/themes/orginal.h" added="2025-01-19T19:00:31.719053Z" modified="2025-01-19T19:00:31.719061Z" visited="2025-01-19T19:00:31.719055Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-19T19:00:31.719057Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/themes/origin.h" added="2025-01-19T19:06:21.308656Z" modified="2025-02-03T06:22:37.887917Z" visited="2025-01-19T19:06:21.308657Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-03T06:22:37.887913Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/themes/dark_brown.h" added="2025-01-19T19:53:53.846917Z" modified="2025-02-03T06:22:15.917271Z" visited="2025-01-19T19:53:53.846918Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-03T06:22:15.917267Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/picom/picom.conf.back" added="2025-01-20T11:09:46.416005Z" modified="2025-01-21T17:58:59.594183Z" visited="2025-01-20T11:09:46.416006Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-21T17:58:59.594179Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-alwayscenter-20200625-f04cac6.diff" added="2025-01-20T12:32:55.810798Z" modified="2025-01-20T12:32:56.193154Z" visited="2025-01-20T12:32:55.810799Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-20T12:32:56.193150Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/~." added="2025-01-20T12:45:30.503380Z" modified="2025-01-20T12:45:30.503383Z" visited="2025-01-20T12:45:30.503380Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-01-20T12:45:30.503382Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/Pictures/wallhaven-exkg7w.jpg" added="2025-01-20T12:50:43.618322Z" modified="2025-01-20T12:50:46.089638Z" visited="2025-01-20T12:50:43.618324Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-20T12:50:46.089631Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-status2d-6.3.diff" added="2025-01-20T19:00:18.640492Z" modified="2025-01-24T20:34:35.539296Z" visited="2025-01-20T19:00:18.640494Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-20T19:00:19.042166Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T20:34:35.539292Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/scripts/sb-volume" added="2025-01-20T19:06:16.500777Z" modified="2025-01-20T19:06:16.832886Z" visited="2025-01-20T19:06:16.500779Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-20T19:06:16.832881Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/slstatus/config.def.h" added="2025-01-20T19:08:20.383005Z" modified="2025-01-25T19:22:45.426568Z" visited="2025-01-20T19:08:20.383006Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T21:31:03.863484Z" count="12"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-01-25T19:22:45.426566Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/Documents/config.def.h" added="2025-01-20T19:29:11.738388Z" modified="2025-01-20T19:29:12.106857Z" visited="2025-01-20T19:29:11.738389Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-20T19:29:12.106852Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwmblocks/dwmblocks-statuscmd-signal.diff" added="2025-01-21T09:06:41.539341Z" modified="2025-01-21T09:06:41.932788Z" visited="2025-01-21T09:06:41.539342Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-21T09:06:41.932782Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwmblocks/dwmblocks.c" added="2025-01-21T09:07:42.570793Z" modified="2025-01-21T09:07:42.570801Z" visited="2025-01-21T09:07:42.570794Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-21T09:07:42.570797Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwmblocks/dwmblocks.c.rej" added="2025-01-21T09:07:42.570819Z" modified="2025-01-21T09:07:42.570823Z" visited="2025-01-21T09:07:42.570820Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-21T09:07:42.570821Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwmblocks/blocks.def.h" added="2025-01-21T09:21:03.986038Z" modified="2025-01-22T20:16:48.504365Z" visited="2025-01-21T09:21:03.986039Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-22T20:16:48.504361Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwmblocks/blocks.h" added="2025-01-21T09:25:04.810310Z" modified="2025-01-21T09:25:04.810319Z" visited="2025-01-21T09:25:04.810311Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-21T09:25:04.810314Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/Documents/config.h" added="2025-01-21T18:15:02.306506Z" modified="2025-01-21T18:15:02.665202Z" visited="2025-01-21T18:15:02.306507Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-21T18:15:02.665198Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/scripts/weather.sh" added="2025-01-21T19:03:47.125707Z" modified="2025-01-21T19:03:47.125715Z" visited="2025-01-21T19:03:47.125708Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-21T19:03:47.125710Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/scripts/weatherop.sh" added="2025-01-22T06:03:54.847153Z" modified="2025-01-22T06:03:54.847161Z" visited="2025-01-22T06:03:54.847154Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-22T06:03:54.847157Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/bin/datetime" added="2025-01-22T06:32:29.466401Z" modified="2025-01-23T08:14:02.844267Z" visited="2025-01-22T06:32:29.466403Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-23T08:14:02.844264Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/bin/volume" added="2025-01-22T06:54:51.621210Z" modified="2025-01-23T07:25:21.202195Z" visited="2025-01-22T06:54:51.621211Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-23T07:25:21.202191Z" count="8"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/scripts/volume" added="2025-01-22T06:57:34.000366Z" modified="2025-01-22T06:57:34.000374Z" visited="2025-01-22T06:57:34.000368Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-22T06:57:34.000370Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/scripts/datetime" added="2025-01-22T19:25:15.825921Z" modified="2025-01-23T08:13:04.637844Z" visited="2025-01-22T19:25:15.825923Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-23T08:13:04.637840Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/bin/weather" added="2025-01-22T19:39:03.289215Z" modified="2025-01-24T08:08:42.297797Z" visited="2025-01-22T19:39:03.289216Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T08:08:42.297794Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwmblocks/dwm-statuscmd-20241009-8933ebc.diff" added="2025-01-22T19:53:31.885084Z" modified="2025-01-22T19:53:32.272517Z" visited="2025-01-22T19:53:31.885085Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-22T19:53:32.272513Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-statuscmd-20241009-8933ebc.diff" added="2025-01-22T19:54:32.576725Z" modified="2025-01-22T19:54:32.924635Z" visited="2025-01-22T19:54:32.576727Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-22T19:54:32.924630Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/dwm.1.rej" added="2025-01-22T19:55:25.567529Z" modified="2025-01-22T19:55:25.567537Z" visited="2025-01-22T19:55:25.567530Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-22T19:55:25.567533Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/dwm.1" added="2025-01-22T19:55:25.567555Z" modified="2025-01-22T19:55:25.567559Z" visited="2025-01-22T19:55:25.567556Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-troff-man"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-22T19:55:25.567557Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/dwm.c.rej" added="2025-01-22T19:57:37.988071Z" modified="2025-01-22T19:57:37.988081Z" visited="2025-01-22T19:57:37.988073Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-22T19:57:37.988076Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/dwm.c" added="2025-01-22T19:57:37.988099Z" modified="2025-01-24T21:05:30.646395Z" visited="2025-01-22T19:57:37.988099Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T21:05:30.646393Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/src/dwmblocks/config.h" added="2025-01-23T07:44:26.400436Z" modified="2025-01-23T07:44:26.400442Z" visited="2025-01-23T07:44:26.400437Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-23T07:44:26.400439Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/src/dwmblocks/patches/dwmblocks-statuscmd-20210402-96cbb45.diff" added="2025-01-23T07:52:10.908683Z" modified="2025-01-23T07:52:11.305580Z" visited="2025-01-23T07:52:10.908684Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-23T07:52:11.305575Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/bin/vol" added="2025-01-23T08:12:48.995838Z" modified="2025-01-25T12:17:12.929211Z" visited="2025-01-23T08:12:48.995839Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-25T11:25:38.741500Z" count="3"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-01-25T12:17:12.929208Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/slstatus/config.h" added="2025-01-24T20:41:53.713894Z" modified="2025-01-24T20:41:53.713903Z" visited="2025-01-24T20:41:53.713896Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T20:41:53.713898Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/patches/dwm-statuscmd-status2d-20210405-60bb3df.diff" added="2025-01-24T20:45:14.793898Z" modified="2025-01-24T21:06:38.492554Z" visited="2025-01-24T20:45:14.793900Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-24T20:45:15.173716Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T21:06:38.492549Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.local/bin/layout" added="2025-01-24T21:32:14.444611Z" modified="2025-01-24T21:48:25.853087Z" visited="2025-01-24T21:32:14.444613Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T21:48:25.853083Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/config.def.h.orig" added="2025-01-24T21:39:08.915781Z" modified="2025-01-24T21:39:08.915789Z" visited="2025-01-24T21:39:08.915782Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-01-24T21:39:08.915785Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/themes/blue.h" added="2025-01-25T11:20:40.109844Z" modified="2025-02-07T20:27:53.313783Z" visited="2025-01-25T11:20:40.109846Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-07T20:27:53.313778Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/geany/colorschemes/darcula.conf" added="2025-01-25T12:21:46.951649Z" modified="2025-01-25T12:23:24.256051Z" visited="2025-01-25T12:21:46.951650Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:23:24.256040Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/geany/colorschemes/bespin.conf" added="2025-01-25T12:23:08.096964Z" modified="2025-01-25T12:23:08.543779Z" visited="2025-01-25T12:23:08.096966Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:23:08.543772Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/geany/colorschemes/earthsong.conf" added="2025-01-25T12:23:43.613103Z" modified="2025-01-25T12:23:44.060512Z" visited="2025-01-25T12:23:43.613105Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:23:44.060497Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/geany/colorschemes/kary-pro-colors-dark.conf" added="2025-01-25T12:24:18.752865Z" modified="2025-01-25T12:24:19.177725Z" visited="2025-01-25T12:24:18.752866Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:24:19.177719Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/background/clock.png" added="2025-01-25T12:43:20.275876Z" modified="2025-01-25T12:43:20.650805Z" visited="2025-01-25T12:43:20.275878Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:43:20.650800Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/background/zero_O.png" added="2025-01-25T12:44:24.184976Z" modified="2025-01-25T12:44:24.532202Z" visited="2025-01-25T12:44:24.184978Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:44:24.532194Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/background/line_g.png" added="2025-01-25T12:44:51.469358Z" modified="2025-01-25T12:44:51.783550Z" visited="2025-01-25T12:44:51.469359Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:44:51.783545Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/background/clock_O.png" added="2025-01-25T12:46:50.600297Z" modified="2025-01-25T12:46:50.915148Z" visited="2025-01-25T12:46:50.600298Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/png"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-01-25T12:46:50.915140Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/herbstluftwm/autostart" added="2025-02-04T08:34:20.328880Z" modified="2025-02-06T09:32:21.607663Z" visited="2025-02-04T08:34:20.328882Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-04T19:38:30.966509Z" count="2"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-06T09:32:21.607660Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/patches/dmenu-xresources-4.9.diff" added="2025-02-04T19:06:05.127076Z" modified="2025-02-04T19:12:58.342137Z" visited="2025-02-04T19:06:05.127077Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-02-04T19:06:05.504513Z" count="2"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-04T19:12:58.342132Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/polybar/config" added="2025-02-04T20:01:00.158635Z" modified="2025-02-06T08:45:57.933485Z" visited="2025-02-04T20:01:00.158636Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-04T20:01:00.158640Z" count="1"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-06T08:45:57.933484Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/polybar/scripts/audio.sh" added="2025-02-04T20:18:48.608867Z" modified="2025-02-06T08:30:03.692660Z" visited="2025-02-04T20:18:48.608868Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-04T20:18:48.608871Z" count="1"/>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-06T08:30:03.692656Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/polybar/scripts/keyboard-layout.sh" added="2025-02-06T08:53:04.922254Z" modified="2025-02-06T09:12:43.020784Z" visited="2025-02-06T08:53:04.922255Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/x-shellscript"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-06T09:12:43.020781Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dwm/Makefile" added="2025-02-06T09:14:01.310639Z" modified="2025-02-06T09:14:01.310648Z" visited="2025-02-06T09:14:01.310640Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-06T09:14:01.310643Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/sxhkd/sxhkdrc" added="2025-02-06T09:33:33.879387Z" modified="2025-02-07T20:33:02.536314Z" visited="2025-02-06T09:33:33.879388Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:groups>
+          <bookmark:group>geany</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="geany" exec="&apos;geany %u&apos;" modified="2025-02-07T20:33:02.536311Z" count="4"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/.config/suckless/dmenu/dmenu.c.orig" added="2025-02-07T20:40:48.711835Z" modified="2025-02-07T20:46:08.549116Z" visited="2025-02-07T20:40:48.711837Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-02-07T20:46:08.549114Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/Downloads/hplip-3.24.4-plugin.run" added="2025-02-07T20:59:53.153955Z" modified="2025-02-07T20:59:53.502905Z" visited="2025-02-07T20:59:53.153957Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-02-07T20:59:53.502902Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/eih/Downloads/WhatsApp%20Image%202025-02-07%20at%2011.51.44%20PM.jpeg" added="2025-02-07T21:10:54.941025Z" modified="2025-02-07T21:17:07.710518Z" visited="2025-02-07T21:10:54.941029Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:groups>
+          <bookmark:group>Graphics</bookmark:group>
+        </bookmark:groups>
+        <bookmark:applications>
+          <bookmark:application name="Firefox" exec="&apos;Firefox %u&apos;" modified="2025-02-07T21:13:28.541254Z" count="4"/>
+          <bookmark:application name="nemo" exec="&apos;feh --start-at %u&apos;" modified="2025-02-07T21:14:00.805539Z" count="1"/>
+          <bookmark:application name="GNU Image Manipulation Program" exec="&apos;gimp-2.10 %u&apos;" modified="2025-02-07T21:17:07.710515Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+</xbel>

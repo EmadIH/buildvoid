@@ -1,0 +1,113 @@
+#################################
+# Config File for Picom
+#################################
+
+# General settings
+backend = "glx";                    # استخدم GLX للحصول على أداء أفضل     
+vsync = true;                       # تفعيل مزامنة الإطارات لتجنب التمزق
+
+# Shadows
+shadow = true;
+shadow-radius = 10;                 # نصف قطر الظلال
+shadow-opacity = 0.5;               # شفافية الظل
+
+# Fading
+fading = true;
+fade-in-step = 0.05;                # خطوة تلاشي النوافذ عند ظهورها
+fade-out-step = 0.05;               # خطوة تلاشي النوافذ عند إغلاقها
+
+# Transparency
+inactive-opacity = 0.9;             # شفافية النوافذ غير النشطة
+active-opacity = 1.0;               # شفافية النوافذ النشطة
+blur-background = true;             # تفعيل التمويه
+blur-method = "gaussian";             # نوع التمويه (مثال: kawase, gaussian)
+blur-strength = 7;                  # قوة التمويه
+
+# Animations
+animations = true;
+animation-stiffness = 200;          # مقدار الحركة (كلما قل الرقم أصبحت الحركة أكثر مرونة)
+
+# Exclude specific applications
+opacity-rule = [
+    "100:class_g = 'firefox'"     # استثناء Firefox من الشفافية
+];
+
+shadow-exclude = [
+    "class_g = 'firefox'"         # استثناء Firefox من الظلال
+];
+
+blur-background-exclude = [
+    "class_g = 'firefox'"         # استثناء Firefox من التمويه
+];
+
+
+###########################################################################
+###########################################################################
+
+
+#################################
+# Config File for Picom
+#################################
+
+# Backend settings                       # إعدادات الخلفية (المحرك الذي يستخدمه Picom لرسم التأثيرات)
+backend = "glx";                         # اختيار محرك GLX لتسريع العرض.
+
+# Enable shadows                         # تفعيل الظلال
+shadow = false;                           # تفعيل خاصية الظلال.
+shadow-radius = 7;                       # تحديد نصف قطر الظلال.
+shadow-offset-x = 1;                    # إزاحة الظلال أفقيًا.-7
+shadow-offset-y = 1;                    # إزاحة الظلال عموديًا.
+shadow-opacity = 1;                    # تحديد شفافية الظلال.
+
+# Enable fading                          # تفعيل التلاشي (التأثير عند فتح أو إغلاق النوافذ)
+fading = true;                           # تفعيل خاصية التلاشي.
+fade-delta = 12;                         # سرعة التأثير العام للتلاشي.
+fade-in-step = 0.03;                     # الخطوة عند ظهور النافذة.
+fade-out-step = 0.03;                    # الخطوة عند إخفاء النافذة.
+
+# Transparency settings                 # إعدادات الشفافية
+opacity-rule = [
+    # "30:class_g = ''",             # جعل نافذة تطبيق URxvt بشفافية 80%.
+    # "90:class_g = ''"                  
+];
+
+# Blur settings                         # إعدادات التمويه
+blur:
+{
+    method = "kernel";                  # تحديد طريقة التمويه باستخدام النواة.
+    strength = 5;                       # قوة التمويه.
+    kernel = "3x3box";                  # حجم النواة المستخدمة في التمويه.
+};
+
+# Animation settings                    # إعدادات الحركة (الأنيميشن)
+animation = true;                       # تفعيل خاصية الأنيميشن.
+animation-stiffness = 200.0;            # تحديد صلابة الحركة (سرعة بدء الحركة).
+animation-dampening = 20.0;             # تقليل قوة الحركة (تأثير التباطؤ).
+animation-window-mass = 0.5;            # وزن النافذة المؤثر في الحركة.
+
+# Other settings                        # إعدادات أخرى
+vsync = true;                           # تفعيل المزامنة الرأسية لتجنب تمزق الشاشة.
+unredir-if-possible = true;             # تعطيل التأثيرات في حالة عرض الشاشة بالكامل لتحسين الأداء.
+detect-client-leader = true;            # محاولة تحديد النوافذ التابعة لتطبيق واحد.
+detect-transient = true;                # محاولة تحديد النوافذ المؤقتة.
+detect-client-opacity = true;           # احترام الشفافية المخصصة من التطبيقات.
+
+########### قسم الاستثناءات ##########
+
+# Exclude shadows on certain windows     # استثناء الظلال لبعض النوافذ
+shadow-exclude = [
+     "name *= 'Firefox'",                # استثناء الظلال لتطبيق Visual Studio Code.
+
+];
+
+# Exclude fading on certain windows     # استثناء التلاشي لبعض النوافذ
+fade-exclude = [
+    # "class_g = ''",                     # يمكن إضافة اسم تطبيق هنا لاستثناء التلاشي.
+    # "class_g = ''"                      # يمكن إضافة اسم تطبيق آخر هنا.
+];
+
+# Exclude blur on certain windows       # استثناء التمويه لبعض النوافذ
+blur-background-exclude = [
+   "name *= 'Firefox'",               # استثناء التمويه لتطبيق Firefox.
+   "name *= 'Code-OSS'"               # استثناء التمويه لتطبيق Visual Studio Code.
+];

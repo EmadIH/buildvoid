@@ -1,0 +1,13 @@
+#!/bin/bash
+# عرض التاريخ والوقت مع أيقونات أحادية اللون
+
+# أيقونات أحادية اللون
+CALENDAR_ICON=""
+CLOCK_ICON="⏱"
+
+# صيغة الوقت والتاريخ
+DATE=$(TZ="Asia/Riyadh" date "+%Y-%m-%d")
+TIME=$(TZ="Asia/Riyadh" date "+%H:%M")
+
+# الإخراج مع الأيقونات
+echo "$CALENDAR_ICON $DATE $CLOCK_ICON $TIME"

@@ -1,0 +1,44 @@
+#!/bin/bash
+
+# إعدادات
+API_KEY="e15811acfdd84fc0a15190002252101"
+CITY="24.470901,39.612236"
+UNIT="metric" # للوحدات المترية (درجة مئوية)
+
+# التحقق من وجود ملف التخزين المؤقت
+if [ -f "$CACHE_FILE" ]; then
+  # التحقق من عمر التخزين المؤقت
+  last_update=$(stat -c %Y "$CACHE_FILE")
+  current_time=$(date +%s)
+  if (( current_time - last_update < CACHE_EXPIRATION )); then
+    # إذا كان الملف لا يزال صالحًا، قراءة البيانات منه
+    cat "$CACHE_FILE"
+    exit 0
+  fi
+fi
+
+# إذا لم يكن الملف موجودًا أو انتهت صلاحيته، جلب البيانات من API
+response=$(curl -s "http://api.weatherapi.com/v1/current.json?key=$API_KEY&q=$CITY&aqi=no")
+
+if [ $? -eq 0 ]; then
+  # استخراج البيانات
+  temperature=$(echo "$response" | jq -r '.current.temp_c') # درجة الحرارة
+  condition=$(echo "$response" | jq -r '.current.condition.text') # وصف الحالة الجوية
+  precipitation=$(echo "$response" | jq -r '.current.precip_mm') # الأمطار
+
+  # بناء النتيجة
+  output=" $temperature°C |  $condition | 🌧 $precipitation mm"
+
+  # حفظ النتيجة في ملف التخزين المؤقت
+  echo "$output" > "$CACHE_FILE"
+
+  # عرض النتيجة
+  echo "$output"
+else
+  # إذا فشل الطلب، استخدام آخر بيانات متوفرة أو عرض رسالة خطأ
+  if [ -f "$CACHE_FILE" ]; then
+    cat "$CACHE_FILE"
+  else
+    echo "خطأ في جلب بيانات الطقس"
+  fi
+fi
