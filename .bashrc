@@ -10,7 +10,7 @@ PS1="\[\e[32m\]\h\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[34m\]\u\[\e[m\] \W \$ "
 
 ######## Xbps ShortcCat #######
 alias i='doas xbps-install -S'
-alias u='i; doas xbps-install -u xbps, doas xbps-install -u'
+alias u='i; doas xbps-install -u xbps'
 alias q='doas xbps-query -Rs'
 alias r='doas xbps-remove -R'
 
