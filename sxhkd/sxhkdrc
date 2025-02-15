@@ -1,6 +1,11 @@
 super + w
 	firefox
-super + c
+
+super + g
 	geany
+
 super + s
 	sysstate
+
+super + C
+	code-oss
