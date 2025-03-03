@@ -67,6 +67,8 @@ static const struct arg args[] = {
 	/* function 		format          		argument */
 	{ run_command, 		"%s | ", 		"$HOME/.local/bin/layout" },
 	{ run_command,		"%s | ",		"$HOME/.local/bin/vol" },
+	/* { run_command, 		"📦 %s | ", 		"xbps-install -Mun | wc -l" },*/
+	{ run_command,		"%s | ",		"$HOME/.local/bin/xbps_up" },
 	{ run_command,		"%s | ",		"$HOME/.local/bin/weather" },
 	{ run_command,		"%s  ",			"$HOME/.local/bin/datetime" },
 	
