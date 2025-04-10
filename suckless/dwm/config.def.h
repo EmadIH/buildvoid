@@ -7,11 +7,11 @@ static const int showbar            = 1;        /* 0 means no bar */
 static const int topbar             = 1;        /* 0 means bottom bar */
 static const char *fonts[]          = { "monospace:size=14" };
 static const char dmenufont[]       = "monospace:size=14";
-static const char col_gray1[]       = "#222222";
-static const char col_gray2[]       = "#444444";
-static const char col_gray3[]       = "#bbbbbb";
-static const char col_gray4[]       = "#eeeeee";
-static const char col_cyan[]        = "#005577";
+static const char col_gray1[]       = "#000000"; /*خلفية الشريط العلوي التاغات و الحالة*/
+static const char col_gray2[]       = "#ffffff"; /*البوردر غير النشط للنوافذ*/
+static const char col_gray3[]       = "#ffffff"; /*خط التاغات الغير نشطة و شريط الحالة*/
+static const char col_gray4[]       = "#ffffff"; /*خط اسم النوافذ والتاغات النشطة*/
+static const char col_cyan[]        = "#5a7d71"; /*البوردر للنوافذ النشطة و خلفية اسم النافذة*/
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
