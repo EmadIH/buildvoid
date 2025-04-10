@@ -11,7 +11,7 @@ static const char col_gray1[]       = "#000000"; /*خلفية الشريط ال�
 static const char col_gray2[]       = "#ffffff"; /*البوردر غير النشط للنوافذ*/
 static const char col_gray3[]       = "#ffffff"; /*خط التاغات الغير نشطة و شريط الحالة*/
 static const char col_gray4[]       = "#ffffff"; /*خط اسم النوافذ والتاغات النشطة*/
-static const char col_cyan[]        = "#5a7d71"; /*البوردر للنوافذ النشطة و خلفية اسم النافذة*/
+static const char col_cyan[]        = "#2c7882"; /*البوردر للنوافذ النشطة و خلفية اسم النافذة*/
 static const char *colors[][3]      = {
 	/*               fg         bg         border   */
 	[SchemeNorm] = { col_gray3, col_gray1, col_gray2 },
