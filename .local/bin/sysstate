@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# Script Power System 
+
+case "$(printf "Shutdown\nReboot\nLock\nExit dwm\n" | dmenu -l 10 -i -p "system:")" in	
+	"Shutdown") doas poweroff ;;
+	"Reboot") doas reboot ;;
+	"Lock") slock ;;
+	"Exit dwm") pkill dwm ;;
+	*) exit 1 ;;
+esac

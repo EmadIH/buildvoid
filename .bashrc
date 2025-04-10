@@ -3,9 +3,13 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
-alias ls='ls --color=auto'
-alias ll='ls -la --color=auto'
-# PS1='[\u@\h \W]\$ '
+#alias ls='ls --color=auto'
+#alias ll='ls -la --color=auto'
+alias ls='eza -l --icons'
+alias ll='ls -la --icons'
+alias cat='bat'
+alias trr='tree --icons'
+#PS1='[\u@\h \W]\$ '
 PS1="\[\e[32m\]\h\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[34m\]\u\[\e[m\] \W \$ "
 
 ######## Xbps ShortcCat #######
@@ -31,4 +35,4 @@ alias reconf='doas xbps-reconfigure -af'
 
 ##### Export #####
 export PATH=$HOME/.local/bin:$PATH
-export PATH=$HOME/scripts:$PATH
+# export PATH=$HOME/scripts:$PATH

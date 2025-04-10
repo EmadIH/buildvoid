@@ -1,11 +1,21 @@
 super + w
-	firefox
+	chromium
 
 super + g
 	geany
 
 super + s
-	sysstate
+	~/.local/bin/sysstate
 
-super + C
+super + c
 	code-oss
+
+# رفع الصوت
+super + F10
+    pulsemixer --change-volume +5 && killall -q slstatus && slstatus &
+# خفض الصوت
+super + F11
+    pulsemixer --change-volume -5 && killall -q slstatus && slstatus &
+# كتم أو إلغاء الكتم
+super + F12
+    pulsemixer --toggle-mute && killall -q slstatus && slstatus &

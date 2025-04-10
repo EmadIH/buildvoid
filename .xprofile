@@ -1,0 +1,11 @@
+#!/bin/bash
+
+# تحميل إعدادات bashrc للحصول على $PATH المحدث
+# [ -f ~/.bashrc ] && . ~/.bashrc
+
+# تشغيل سكربت الخدمات
+~/.local/bin/start-dwm &
+
+# تشغيل dwm داخل جلسة D-Bus
+exec dbus-run-session dwm
+

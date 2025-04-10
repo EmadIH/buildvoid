@@ -14,14 +14,11 @@ sxhkd &
 
 ##### Xrandr #####
 # xrandr --output HDMI-1 --mode 1920x1080 &
-# xrdb ~/.config/.Xresources
-
-##### Xcompmgr #####
-# xcompmgr -c  &
+xrdb ~/.config/.Xresources &
 
 ##### Dwm Blocks #####
 # dwmblocks &
-# slstatus &
+slstatus &
 
 ###### Pipwewire start ######
 pipewire &
@@ -29,8 +26,8 @@ pipewire-pulse &
 # wireplumber &
 
 ###### Picom ######
-# picom &
-picom --experimental-backends &
+picom &
+# picom --experimental-backends &
 
 ###### Feh Wallpaper ######
 $HOME/.fehbg &

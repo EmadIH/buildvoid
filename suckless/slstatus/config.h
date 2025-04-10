@@ -65,11 +65,15 @@ static const char unknown_str[] = "n/a";
  */
 static const struct arg args[] = {
 	/* function 		format          		argument */
-	{ run_command, 		"%s | ", 		"$HOME/.local/bin/layout" },
-	{ run_command,		"%s | ",		"$HOME/.local/bin/vol" },
-	/* { run_command, 		"📦 %s | ", 		"xbps-install -Mun | wc -l" },*/
-	{ run_command,		"%s | ",		"$HOME/.local/bin/xbps_up" },
-	{ run_command,		"%s | ",		"$HOME/.local/bin/weather" },
-	{ run_command,		"%s  ",			"$HOME/.local/bin/datetime" },
+	/*{ run_command, 		"%s | ", 		"$HOME/.local/bin/layout" },*/
+	/*{ run_command,		"%s | ",		"$HOME/.local/bin/vol" },*/
+	/*{ run_command,	"%s | ",		"$HOME/.local/bin/xbps_up" },*/
+	/*{ run_command,		"%s | ",		"$HOME/.local/bin/weather" },*/
+	/*{ run_command,		"%s  ",			"$HOME/.local/bin/datetime" },*/
+	{ run_command, 	"[ 📦 %2s] ", 		"xbps-install -Mun | wc -l" },
+	{ run_command, 	"[  %3s%%] ", "pulsemixer --get-volume | awk '{print $1}'" },
+	{ cpu_perc, 	"[  %3s%%] ", NULL	      },
+	{ ram_perc, 	"[  %3s%%] ", NULL	      },
+	{ datetime, "[%s", "   %a %b %d  %I:%M %p ] " },
 	
 };

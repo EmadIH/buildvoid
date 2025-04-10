@@ -5,8 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "monospace:size=19:antialias=true:autohint=true";
-static char *font2[] = { "NotoColorEmoji:pixelsize=17:antialias=true:autohint=true" };
+static char *font = "JetBrainsMono Nerd Font:size=19" ;
 static int borderpx = 2;
 
 /*
@@ -93,9 +92,6 @@ char *termname = "st-256color";
  *	stty tabs
  */
 unsigned int tabspaces = 8;
-
-/* bg opacity */
-float alpha = 0.7;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
