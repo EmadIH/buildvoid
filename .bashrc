@@ -11,7 +11,7 @@ alias cat='bat'
 alias trr='tree --icons'
 #PS1='[\u@\h \W]\$ '
 PS1="\[\e[32m\]\h\[\e[m\]\[\e[36m\]@\[\e[m\]\[\e[34m\]\u\[\e[m\] \W \$ "
-
+fastfetch
 ######## Xbps ShortcCat #######
 alias i='doas xbps-install -S'
 alias u='i; doas xbps-install -u xbps; doas xbps-install -u'
