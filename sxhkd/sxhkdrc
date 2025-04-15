@@ -10,6 +10,15 @@ super + s
 super + c
 	code-oss
 
+super + m 
+	~/.local/bin/mount-disk
+
+super + u
+	~/.local/bin/umount-disk
+
+super + b
+	~/.local/bin/blue-menu
+
 # رفع الصوت
 super + F10
     pulsemixer --change-volume +5 && killall -q slstatus && slstatus &
