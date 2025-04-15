@@ -6,8 +6,12 @@ setxkbmap -layout us,ara -variant ,digits -option grp:alt_space_toggle caps:swap
 ##### Dunst #####
 dunst &
 
+bluetoothdtl &
 ##### Sxhkd #####
-sxhkd &	
+sxhkd &
+
+##### Udiskie #####
+udiskie &
 
 ##### Polkit agent  ######
 /usr/libexec/polkit-gnome-authentication-agent-1 &
@@ -26,8 +30,8 @@ pipewire-pulse &
 # wireplumber &
 
 ###### Picom ######
-picom &
 # picom --experimental-backends &
+picom &
 
 ###### Feh Wallpaper ######
 $HOME/.fehbg &

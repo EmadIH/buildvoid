@@ -1,3 +1,4 @@
 [default-profile]
 alsa_card.pci-0000_00_1b.0=off
 alsa_card.pci-0000_05_00.1=output:hdmi-stereo
+bluez_card.E0_49_ED_00_1B_E3=a2dp-sink

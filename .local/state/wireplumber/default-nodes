@@ -1,0 +1,3 @@
+[default-nodes]
+default.configured.audio.sink=bluez_output.E0_49_ED_00_1B_E3.1
+default.configured.audio.sink.0=alsa_output.pci-0000_05_00.1.hdmi-stereo

@@ -1,0 +1,97 @@
+#!/bin/bash
+
+# تحديد أوامر الأدوات
+DMENU="dmenu -i -l 10"
+BLUETOOTHCTL="bluetoothctl"
+
+# التأكد من أن البلوتوث يعمل
+$BLUETOOTHCTL power on >/dev/null 2>&1
+
+# دالة لعرض القائمة الرئيسية
+main_menu() {
+    echo -e "New Pair\nConnect\nShow Connected\nDisconnect" | $DMENU -p "Bluetooth Menu:"
+}
+
+# دالة لإقران جهاز جديد
+pair_device() {
+    # بدء وضع الفحص
+    $BLUETOOTHCTL scan on >/dev/null 2>&1 &
+    sleep 5  # الانتظار لجمع الأجهزة
+    # جلب قائمة الأجهزة
+    devices=$($BLUETOOTHCTL devices | awk '{print $2 " " substr($0, index($0,$3))}')
+    $BLUETOOTHCTL scan off >/dev/null 2>&1
+    if [ -z "$devices" ]; then
+        notify-send "Bluetooth" "No devices found."
+        exit 1
+    fi
+    # عرض الأجهزة عبر dmenu
+    selected=$(echo "$devices" | $DMENU -p "Select device to pair:")
+    if [ -n "$selected" ]; then
+        mac=$(echo "$selected" | awk '{print $1}')
+        $BLUETOOTHCTL pair "$mac" && $BLUETOOTHCTL trust "$mac" && $BLUETOOTHCTL connect "$mac"
+        if [ $? -eq 0 ]; then
+            notify-send "Bluetooth" "Paired and connected to $selected"
+        else
+            notify-send "Bluetooth" "Failed to pair $selected"
+        fi
+    fi
+}
+
+# دالة لتوصيل جهاز
+connect_device() {
+    devices=$($BLUETOOTHCTL devices | awk '{print $2 " " substr($0, index($0,$3))}')
+    if [ -z "$devices" ]; then
+        notify-send "Bluetooth" "No paired devices found."
+        exit 1
+    fi
+    selected=$(echo "$devices" | $DMENU -p "Select device to connect:")
+    if [ -n "$selected" ]; then
+        mac=$(echo "$selected" | awk '{print $1}')
+        $BLUETOOTHCTL connect "$mac"
+        if [ $? -eq 0 ]; then
+            notify-send "Bluetooth" "Connected to $selected"
+        else
+            notify-send "Bluetooth" "Failed to connect to $selected"
+        fi
+    fi
+}
+
+# دالة لعرض الأجهزة المتصلة
+show_connected() {
+    connected=$($BLUETOOTHCTL info | grep "Connected: yes" -B 1 | grep "Name" | awk '{print substr($0, index($0,$2))}')
+    if [ -z "$connected" ]; then
+        notify-send "Bluetooth" "No devices connected."
+    else
+        notify-send "Bluetooth" "Connected devices:\n$connected"
+    fi
+}
+
+# دالة لقطع الاتصال
+disconnect_device() {
+    devices=$($BLUETOOTHCTL devices | awk '{print $2 " " substr($0, index($0,$3))}')
+    if [ -z "$devices" ]; then
+        notify-send "Bluetooth" "No paired devices found."
+        exit 1
+    fi
+    selected=$(echo "$devices" | $DMENU -p "Select device to disconnect:")
+    if [ -n "$selected" ]; then
+        mac=$(echo "$selected" | awk '{print $1}')
+        $BLUETOOTHCTL disconnect "$mac"
+        if [ $? -eq 0 ]; then
+            notify-send "Bluetooth" "Disconnected $selected"
+        else
+            notify-send "Bluetooth" "Failed to disconnect $selected"
+        fi
+    fi
+}
+
+# التحكم في الخيارات
+choice=$(main_menu)
+
+case "$choice" in
+    "New Pair") pair_device ;;
+    "Connect") connect_device ;;
+    "Show Connected") show_connected ;;
+    "Disconnect") disconnect_device ;;
+    *) exit 0 ;;
+esac

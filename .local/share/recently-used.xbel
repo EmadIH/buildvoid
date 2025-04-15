@@ -133,12 +133,12 @@
       </metadata>
     </info>
   </bookmark>
-  <bookmark href="file:///home/emadih/.config/sxhkd/sxhkdrc" added="2025-04-09T06:04:31.447049Z" modified="2025-04-09T07:04:57.693163Z" visited="2025-04-09T06:04:31.447050Z">
+  <bookmark href="file:///home/emadih/.config/sxhkd/sxhkdrc" added="2025-04-09T06:04:31.447049Z" modified="2025-04-12T08:26:29.368869Z" visited="2025-04-09T06:04:31.447050Z">
     <info>
       <metadata owner="http://freedesktop.org">
         <mime:mime-type type="application/octet-stream"/>
         <bookmark:applications>
-          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-09T07:04:57.693161Z" count="3"/>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-12T08:26:29.368865Z" count="5"/>
         </bookmark:applications>
       </metadata>
     </info>
@@ -259,6 +259,217 @@
         <mime:mime-type type="text/x-patch"/>
         <bookmark:applications>
           <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-10T07:37:35.661824Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/buildvoid" added="2025-04-10T07:55:34.670111Z" modified="2025-04-15T16:19:25.639612Z" visited="2025-04-10T07:55:34.670112Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-15T16:19:25.639608Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/picom/picom.conf" added="2025-04-10T08:09:27.886923Z" modified="2025-04-12T12:19:23.786564Z" visited="2025-04-10T08:09:27.886924Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-10T08:09:27.886927Z" count="1"/>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2025-04-12T12:19:23.786559Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/buildvoid/suckless/patches/dwm-movestack-20211115-a786211.diff" added="2025-04-10T08:23:24.951479Z" modified="2025-04-10T08:23:24.951489Z" visited="2025-04-10T08:23:24.951481Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2025-04-10T08:23:24.951484Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/Pictures/darck-green.jpg" added="2025-04-10T09:31:20.583092Z" modified="2025-04-10T09:31:20.583102Z" visited="2025-04-10T09:31:20.583093Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2025-04-10T09:31:20.583097Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/Pictures/light-green.jpg" added="2025-04-10T14:46:31.791003Z" modified="2025-04-10T14:46:31.791013Z" visited="2025-04-10T14:46:31.791004Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="image/jpeg"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2025-04-10T14:46:31.791007Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.local/bin/mount-disk" added="2025-04-11T20:53:39.465019Z" modified="2025-04-11T20:53:39.465031Z" visited="2025-04-11T20:53:39.465020Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T20:53:39.465024Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/buildvoid/AppForVoidLinux.txt" added="2025-04-11T21:16:20.328189Z" modified="2025-04-11T21:16:20.328198Z" visited="2025-04-11T21:16:20.328191Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/plain"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T21:16:20.328193Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/patches/dwm-alpha-20230401-348f655.diff" added="2025-04-11T21:20:34.196113Z" modified="2025-04-11T21:20:34.196122Z" visited="2025-04-11T21:20:34.196114Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-patch"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2025-04-11T21:20:34.196117Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/dwm/config.def.h" added="2025-04-11T21:22:01.257837Z" modified="2025-04-13T17:24:24.504067Z" visited="2025-04-11T21:22:01.257838Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-13T17:24:24.504063Z" count="3"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/dwm/config.def.h.rej" added="2025-04-11T21:22:01.257863Z" modified="2025-04-11T21:22:01.257868Z" visited="2025-04-11T21:22:01.257864Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T21:22:01.257865Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/dwm/config.mk" added="2025-04-11T21:24:35.864177Z" modified="2025-04-11T21:24:35.864186Z" visited="2025-04-11T21:24:35.864179Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-makefile"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T21:24:35.864181Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/dwm/config.mk.rej" added="2025-04-11T21:24:35.864204Z" modified="2025-04-11T21:24:35.864209Z" visited="2025-04-11T21:24:35.864205Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T21:24:35.864206Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/dwm/drw.c" added="2025-04-11T21:26:03.583926Z" modified="2025-04-11T21:26:03.583935Z" visited="2025-04-11T21:26:03.583927Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T21:26:03.583930Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/dwm/drw.c.rej" added="2025-04-11T21:26:03.583953Z" modified="2025-04-11T21:26:03.583958Z" visited="2025-04-11T21:26:03.583954Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-reject"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T21:26:03.583955Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/dwm/dwm.c" added="2025-04-11T21:35:30.574118Z" modified="2025-04-11T21:35:30.574127Z" visited="2025-04-11T21:35:30.574119Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-csrc"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-11T21:35:30.574122Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless" added="2025-04-12T08:22:17.940718Z" modified="2025-04-12T08:22:17.940727Z" visited="2025-04-12T08:22:17.940719Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="inode/directory"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-12T08:22:17.940722Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.local/bin/blue-connect" added="2025-04-12T08:37:30.823891Z" modified="2025-04-12T11:38:59.791228Z" visited="2025-04-12T08:37:30.823893Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-12T11:38:59.791223Z" count="2"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/suckless/slstatus/config.def.h" added="2025-04-12T16:49:33.157889Z" modified="2025-04-12T16:49:33.157898Z" visited="2025-04-12T16:49:33.157890Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="text/x-chdr"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-12T16:49:33.157893Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.config/bluetooth/bt_menu" added="2025-04-13T17:08:54.796574Z" modified="2025-04-13T17:08:54.796583Z" visited="2025-04-13T17:08:54.796576Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-13T17:08:54.796578Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/.local/bin/blue-menu" added="2025-04-14T05:44:01.353660Z" modified="2025-04-14T05:44:01.353669Z" visited="2025-04-14T05:44:01.353661Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/octet-stream"/>
+        <bookmark:applications>
+          <bookmark:application name="electron" exec="&apos;electron %u&apos;" modified="2025-04-14T05:44:01.353664Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
+  <bookmark href="file:///home/emadih/Downloads/FreeBSD-14.2-RELEASE-amd64-disc1.iso" added="2025-04-15T07:03:21.200599Z" modified="2025-04-15T07:03:21.200609Z" visited="2025-04-15T07:03:21.200600Z">
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <mime:mime-type type="application/vnd.efi.iso"/>
+        <bookmark:applications>
+          <bookmark:application name="chromium" exec="&apos;chromium %u&apos;" modified="2025-04-15T07:03:21.200604Z" count="1"/>
         </bookmark:applications>
       </metadata>
     </info>

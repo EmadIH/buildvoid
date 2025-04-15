@@ -1,0 +1,14 @@
+#!/bin/bash
+
+# List currently mounted partitions for the user
+CHOICE=$(lsblk -lnpo NAME,MOUNTPOINT | grep "/media/$(whoami)" | awk '{print $1 " mounted at " $2}' | dmenu -i -p "Select a disk to unmount:")
+
+# Exit if nothing was selected
+[ -z "$CHOICE" ] && exit
+
+# Extract the device path
+DEV=$(echo "$CHOICE" | awk '{print $1}')
+
+# Unmount the selected device
+udisksctl unmount -b "$DEV"
+

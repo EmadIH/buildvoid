@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# List unmounted partitions with supported filesystems
+CHOICE=$(lsblk -lnpo NAME,FSTYPE,LABEL | grep -E 'ntfs|vfat|exfat' | awk '{print $1 " (" $2 " - " $3 ")"}' | dmenu -i -p "Select a disk to mount:")
+
+# Exit if nothing was selected
+[ -z "$CHOICE" ] && exit
+
+# Extract the device path
+DEV=$(echo "$CHOICE" | awk '{print $1}')
+
+# Mount the selected device
+udisksctl mount -b "$DEV"

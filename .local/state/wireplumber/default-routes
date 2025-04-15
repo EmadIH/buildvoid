@@ -1,3 +1,12 @@
 [default-routes]
-alsa_card.pci-0000_05_00.1:output:hdmi-output-0={"mute":false, "channelMap":["FL", "FR"], "iec958Codecs":[], "channelVolumes":[0.512006, 0.512006], "latencyOffsetNsec":0}
+alsa_card.pci-0000_05_00.1:output:hdmi-output-0={"channelVolumes":[0.941180, 0.941180], "iec958Codecs":[], "channelMap":["FL", "FR"], "latencyOffsetNsec":0, "mute":false}
 alsa_card.pci-0000_05_00.1:profile:output:hdmi-stereo=["hdmi-output-0"]
+bluez_card.E0_49_ED_00_1B_E3:input:headset-input={"mute":false, "channelVolumes":[0.296296], "channelMap":["MONO"]}
+bluez_card.E0_49_ED_00_1B_E3:output:headset-hf-output={"mute":false, "channelVolumes":[0.064000], "channelMap":["MONO"]}
+bluez_card.E0_49_ED_00_1B_E3:output:headset-output={"mute":false, "channelMap":["FL", "FR"], "latencyOffsetNsec":0, "channelVolumes":[0.392679, 0.392679]}
+bluez_card.E0_49_ED_00_1B_E3:profile:a2dp-sink=["headset-output"]
+bluez_card.E0_49_ED_00_1B_E3:profile:a2dp-sink-aac=["headset-output"]
+bluez_card.E0_49_ED_00_1B_E3:profile:a2dp-sink-sbc=["headset-output"]
+bluez_card.E0_49_ED_00_1B_E3:profile:a2dp-sink-sbc_xq=["headset-output"]
+bluez_card.E0_49_ED_00_1B_E3:profile:headset-head-unit=["headset-hf-output", "headset-input"]
+bluez_card.E0_49_ED_00_1B_E3:profile:headset-head-unit-cvsd=["headset-hf-output", "headset-input"]
