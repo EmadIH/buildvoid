@@ -17,7 +17,7 @@ udiskie &
 /usr/libexec/polkit-gnome-authentication-agent-1 &
 
 ##### Xrandr #####
-# xrandr --output HDMI-1 --mode 1920x1080 &
+xrandr --output HDMI-1 --mode 1920x1080 &
 xrdb ~/.config/.Xresources &
 
 ##### Dwm Blocks #####
