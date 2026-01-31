@@ -3,7 +3,7 @@
 
 # أيقونات أحادية اللون
 CALENDAR_ICON=""
-CLOCK_ICON="⏱"
+CLOCK_ICON="󱑁"
 
 # صيغة الوقت والتاريخ
 DATE=$(TZ="Asia/Riyadh" date "+%Y-%m-%d")
